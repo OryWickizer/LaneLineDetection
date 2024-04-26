@@ -21,6 +21,19 @@ Convert to Grayscale
 
 ![grayed](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/84512c86-2d98-4c36-bc72-829d92ae4f54)
 
+Blur to remove noise
+
+Find Edges, then find contours
+
+![edges](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/2288e272-acfc-4493-b17c-ec8f2e264947)
+
+![contours](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/1d1c52cd-7a1a-4e5d-b6ca-f444e35931e2)
+
+Find boxes surrounding contours
+
+Then find The angle of those boxes
+
+![angles](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/78a43697-ce84-40fa-8057-9e8c1eff53ab)
 
 
 Platform
