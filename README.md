@@ -2,6 +2,17 @@
 ## Abstract
 Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a front-facing camera.
 
+## Explaination of Provided Files
+
+- LIMO_test.jpeg
+  - example JPEG used in Process section
+
+- laneLineAngles.py
+  - python code to run on test image (LIMO_test.jpeg)
+ 
+- codeOnLIMO.py
+  - the python file to run on the LIMO
+
 ## Process
 
 BGR (Original Image) --> HSV
@@ -31,14 +42,16 @@ Find Edges, then find contours
 
 Find boxes surrounding contours
 
-Then find The angle of those boxes
+Then find the angle of those boxes
 
 ![angles](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/78a43697-ce84-40fa-8057-9e8c1eff53ab)
 
-
-Platform
+## Specs
+Robot Platform
 
 - AgileX LIMO
 
 Software
 - ROS 1 Melodic
+- OpenCV's cv2 python package
+- Python 2.7
