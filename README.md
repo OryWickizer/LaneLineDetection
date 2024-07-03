@@ -5,7 +5,7 @@ Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a
 ## Explaination of Provided Files
 
 - LIMO_test.jpeg
-  - THe example JPEG used in the Process section of this GitHub.
+  - The example JPEG used in the Process section of this GitHub.
 
 - laneLineAngles.py
   - The python code that is run on a test image (here, LIMO_test.jpeg) to find lane lines and lane line angles.
