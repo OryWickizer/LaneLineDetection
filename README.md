@@ -1,6 +1,6 @@
 # LaneLineDetection
 ## Abstract
-Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a front-facing camera.
+Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a front-facing camera on an AgileX LIMO wheeled robot.
 
 ## Explanation of Provided Files
 - LIMO Office Assistant Document.pdf
