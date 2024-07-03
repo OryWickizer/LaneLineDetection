@@ -26,7 +26,7 @@ Create a mask based on the lane line hsv color values:
 
 ![mask](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/a5c842df-c941-4192-bc0e-908fcd218fdc)
 
-Apply mask to HSV image
+Apply that mask to the HSV image to get just lane lines:
 
 ![mask applied](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/69997a48-c100-4f11-829c-9305e4554313)
 
