@@ -22,7 +22,7 @@ BGR (Original Image) --> HSV
 ![LIMO_test](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/3d6ce05c-6701-4a81-9999-6db38b8fe7b7)
 ![hsv](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/0b3dace3-c8d7-4045-8071-9406a128091b)
 
-Create mask based on lane line hsv color values
+Create a mask based on the lane line hsv color values:
 
 ![mask](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/a5c842df-c941-4192-bc0e-908fcd218fdc)
 
