@@ -26,25 +26,23 @@ Create a mask based on the lane line hsv color values:
 
 ![mask](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/a5c842df-c941-4192-bc0e-908fcd218fdc)
 
-Apply that mask to the HSV image to get just lane lines:
+Apply that mask to the HSV image to get just the lane lines (and some noise from the trees):
 
 ![mask applied](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/69997a48-c100-4f11-829c-9305e4554313)
 
-Convert to Grayscale
+Convert the image to Grayscale:
 
 ![grayed](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/84512c86-2d98-4c36-bc72-829d92ae4f54)
 
-Blur to remove noise
+Blur the image to remove noise (not shown).
 
-Find Edges, then find contours
+Find the edges of the lane lines, and then find the corresponding contours:
 
 ![edges](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/2288e272-acfc-4493-b17c-ec8f2e264947)
 
 ![contours](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/1d1c52cd-7a1a-4e5d-b6ca-f444e35931e2)
 
-Find boxes surrounding contours
-
-Then find the angle of those boxes
+Create boxes to surround the contours. Then, find the angles of those boxes relative to a vertical line (angles shown in blue):
 
 ![angles](https://github.com/OryWickizer/LaneLineDetection/assets/22403868/78a43697-ce84-40fa-8057-9e8c1eff53ab)
 
