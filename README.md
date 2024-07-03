@@ -3,7 +3,10 @@
 Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a front-facing camera.
 
 ## Explaination of Provided Files
-
+- LIMO Office Assistant Document.pdf
+  - A more detailed (but messy) guide to many of the LIMO's features.
+- LIMO Office Assistant Document.docx
+  - An editable version of the above guide.
 - LIMO_test.jpeg
   - The example JPEG used in the "Example of a JPEG to Lane Line Angles" section of this GitHub.
 
@@ -63,6 +66,8 @@ The code is taking images from the onboard camera's (the camera is called Dabai)
 The next steps in this project could involve:
 - Getting the code running on the LIMO to find lane lane angles, as is done in the laneLineAngles.py code.
 - Using the found lane line angles as part of a control algorithm to keep the LIMO moving in-between lane lines.
+
+To get started, I would recommend taking a look at the "Basic Movement" section of the included "LIMO Office Assistant Document." Here, an attempt is made to send movement commands to the LIMO through code, which could come in handy when trying to develop a control algorithm to keep the LIMO between lane lines while moving.
 
 ## Specs
 Robot Platform
