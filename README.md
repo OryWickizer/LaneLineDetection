@@ -5,13 +5,15 @@ Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a
 ## Explaination of Provided Files
 
 - LIMO_test.jpeg
-  - example JPEG used in Process section
+  - THe example JPEG used in the Process section of this GitHub.
 
 - laneLineAngles.py
-  - python code to run on test image (LIMO_test.jpeg)
+  - The python code that is run on a test image (here, LIMO_test.jpeg) to find lane lines and lane line angles.
  
 - codeOnLIMO.py
-  - the python file to run on the LIMO
+  - The python file that is run on the LIMO to:
+  -    take images from the Dabai camera stream
+  -    process those images find lane lines
 
 ## Process
 
