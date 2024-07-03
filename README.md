@@ -2,7 +2,7 @@
 ## Abstract
 Using OpenCV's cv2 package, Python, and ROS to determine lane line angles from a front-facing camera.
 
-## Explaination of Provided Files
+## Explanation of Provided Files
 - LIMO Office Assistant Document.pdf
   - A more detailed (but messy) guide to many of the LIMO's features.
 - LIMO Office Assistant Document.docx
